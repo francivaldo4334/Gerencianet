@@ -1,5 +1,5 @@
 ﻿# Gerencianet
- ## Endpoints:
+ ## Endpoints:##
   ````
   http://localhost/autorizer
   http://localhost/asses
