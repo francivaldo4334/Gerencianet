@@ -26,3 +26,5 @@ C:\Users\franc_000\Documents\OfficesafeAndGerencianet\obj\Debug\net6.0\refint\Of
 C:\Users\franc_000\Documents\OfficesafeAndGerencianet\obj\Debug\net6.0\OfficesafeAndGerencianet.pdb
 C:\Users\franc_000\Documents\OfficesafeAndGerencianet\obj\Debug\net6.0\OfficesafeAndGerencianet.genruntimeconfig.cache
 C:\Users\franc_000\Documents\OfficesafeAndGerencianet\obj\Debug\net6.0\ref\OfficesafeAndGerencianet.dll
+C:\Users\franc_000\Documents\OfficesafeAndGerencianet\bin\Debug\net6.0\Gerencianet.SDK.dll
+C:\Users\franc_000\Documents\OfficesafeAndGerencianet\bin\Debug\net6.0\Newtonsoft.Json.dll

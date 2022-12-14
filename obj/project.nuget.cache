@@ -1,16 +1,29 @@
 {
   "version": 2,
-  "dgSpecHash": "FN1l5cXEb4TsDVGleKFQbpJku3wUyW1+3I+phw85NrE3qfrl81YS5K4icISAR1EtawEGTzK1MsT9iwy9qr3wYw==",
+  "dgSpecHash": "BNTUARUgXtaukeWTUY4E9Adybk9cI7ZSSHIldDWHbBhCg4lu3IvxescUb0a3ptZdilrbFJwk2CFE3sspapEpHg==",
   "success": true,
   "projectFilePath": "C:\\Users\\franc_000\\Documents\\OfficesafeAndGerencianet\\OfficesafeAndGerencianet.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\franc_000\\.nuget\\packages\\gerencianet.sdk\\1.0.8\\gerencianet.sdk.1.0.8.nupkg.sha512",
     "C:\\Users\\franc_000\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\franc_000\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\franc_000\\.nuget\\packages\\newtonsoft.json\\12.0.1\\newtonsoft.json.12.0.1.nupkg.sha512",
     "C:\\Users\\franc_000\\.nuget\\packages\\restsharp\\108.0.3\\restsharp.108.0.3.nupkg.sha512",
     "C:\\Users\\franc_000\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
     "C:\\Users\\franc_000\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
     "C:\\Users\\franc_000\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
     "C:\\Users\\franc_000\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "O pacote 'Gerencianet.SDK 1.0.8' foi restaurado usando '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' em vez da estrutura de destino do projeto 'net6.0'. Esse pacote pode não ser totalmente compatível com o seu projeto.",
+      "libraryId": "Gerencianet.SDK",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }

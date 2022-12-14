@@ -8,11 +8,23 @@
     ".NETCoreApp,Version=v6.0": {
       "OfficesafeAndGerencianet/1.0.0": {
         "dependencies": {
+          "Gerencianet.SDK": "1.0.8",
           "RestSharp": "108.0.3",
           "Swashbuckle.AspNetCore": "6.2.3"
         },
         "runtime": {
           "OfficesafeAndGerencianet.dll": {}
+        }
+      },
+      "Gerencianet.SDK/1.0.8": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.1"
+        },
+        "runtime": {
+          "lib/net45/Gerencianet.SDK.dll": {
+            "assemblyVersion": "1.0.8.0",
+            "fileVersion": "1.0.8.0"
+          }
         }
       },
       "Microsoft.Extensions.ApiDescription.Server/3.0.0": {},
@@ -21,6 +33,14 @@
           "lib/netstandard2.0/Microsoft.OpenApi.dll": {
             "assemblyVersion": "1.2.3.0",
             "fileVersion": "1.2.3.0"
+          }
+        }
+      },
+      "Newtonsoft.Json/12.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.1.22727"
           }
         }
       },
@@ -78,6 +98,13 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Gerencianet.SDK/1.0.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1A0Sp/LN9JB8yTxPc8unuvosmhzq6VxNKdwlXRpnNDBK62qh8Ky6cSr7wBrdY/HIf+uG6wvC+cbTtvFYagAB0A==",
+      "path": "gerencianet.sdk/1.0.8",
+      "hashPath": "gerencianet.sdk.1.0.8.nupkg.sha512"
+    },
     "Microsoft.Extensions.ApiDescription.Server/3.0.0": {
       "type": "package",
       "serviceable": true,
@@ -91,6 +118,13 @@
       "sha512": "sha512-Nug3rO+7Kl5/SBAadzSMAVgqDlfGjJZ0GenQrLywJ84XGKO0uRqkunz5Wyl0SDwcR71bAATXvSdbdzPrYRYKGw==",
       "path": "microsoft.openapi/1.2.3",
       "hashPath": "microsoft.openapi.1.2.3.nupkg.sha512"
+    },
+    "Newtonsoft.Json/12.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pBR3wCgYWZGiaZDYP+HHYnalVnPJlpP1q55qvVb+adrDHmFMDc1NAKio61xTwftK3Pw5h7TZJPJEEVMd6ty8rg==",
+      "path": "newtonsoft.json/12.0.1",
+      "hashPath": "newtonsoft.json.12.0.1.nupkg.sha512"
     },
     "RestSharp/108.0.3": {
       "type": "package",
