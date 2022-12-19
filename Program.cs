@@ -1,37 +1,26 @@
-using OfficesafeAndGerencianet.Dtos;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Logging;
 
-var builder = WebApplication.CreateBuilder(args);
-
-// Add services to the container.
-
-builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
-var Configuration = builder.Configuration;
-var services = builder.Services;
-//Credentials Gerencianet
-GerencianetCredenciais credGerencianet = new GerencianetCredenciais();
-credGerencianet.ClientId = Configuration.GetSection("Gerencianet").GetSection("ClientId").Value;
-credGerencianet.ClientSecret = Configuration.GetSection("Gerencianet").GetSection("ClientSecret").Value;
-credGerencianet.CrtPath = Configuration.GetSection("Gerencianet").GetSection("CrtPath").Value;
-credGerencianet.RouteHttp = Configuration.GetSection("Gerencianet").GetSection("RouteHttp").Value;
-credGerencianet.Sandbox = bool.Parse(Configuration.GetSection("Gerencianet").GetSection("Sandbox").Value);
-credGerencianet.RouteAuth = Configuration.GetSection("Gerencianet").GetSection("RouteAuth").Value;
-services.AddSingleton(credGerencianet);
-var app = builder.Build();
-
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
+namespace Gerencianet1
 {
-    app.UseSwagger();
-    app.UseSwaggerUI();
+    public class Program
+    {
+        public static void Main(string[] args)
+        {
+            CreateHostBuilder(args).Build().Run();
+        }
+
+        public static IHostBuilder CreateHostBuilder(string[] args) =>
+            Host.CreateDefaultBuilder(args)
+                .ConfigureWebHostDefaults(webBuilder =>
+                {
+                    webBuilder.UseStartup<Startup>();
+                });
+    }
 }
-
-app.UseHttpsRedirection();
-
-app.UseAuthorization();
-
-app.MapControllers();
-
-app.Run();

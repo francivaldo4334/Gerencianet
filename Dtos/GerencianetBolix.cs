@@ -1,4 +1,4 @@
-namespace OfficesafeAndGerencianet.Dtos{
+namespace Gerencianet.Dtos{
     public class GerencianetBolix{
         public string NomeProduto{get;set;}
         public int Valor{get;set;}

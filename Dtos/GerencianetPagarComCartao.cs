@@ -1,4 +1,4 @@
-namespace OfficesafeAndGerencianet.Dtos{
+namespace Gerencianet.Dtos{
     public class GerencianetPagarComCartao{
         public string NomeProduto { get; set; }
         public int ValorProduto { get; set; }
