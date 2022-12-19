@@ -17,6 +17,7 @@ credGerencianet.ClientSecret = Configuration.GetSection("Gerencianet").GetSectio
 credGerencianet.CrtPath = Configuration.GetSection("Gerencianet").GetSection("CrtPath").Value;
 credGerencianet.RouteHttp = Configuration.GetSection("Gerencianet").GetSection("RouteHttp").Value;
 credGerencianet.Sandbox = bool.Parse(Configuration.GetSection("Gerencianet").GetSection("Sandbox").Value);
+credGerencianet.RouteAuth = Configuration.GetSection("Gerencianet").GetSection("RouteAuth").Value;
 services.AddSingleton(credGerencianet);
 var app = builder.Build();
 

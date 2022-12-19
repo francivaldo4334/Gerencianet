@@ -8,7 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "OfficesafeAndGerencianet/1.0.0": {
         "dependencies": {
-          "Gerencianet.SDK": "1.0.8",
+          "Gerencianet.SDK": "1.0.9",
           "RestSharp": "108.0.3",
           "Swashbuckle.AspNetCore": "6.2.3"
         },
@@ -16,17 +16,19 @@
           "OfficesafeAndGerencianet.dll": {}
         }
       },
-      "Gerencianet.SDK/1.0.8": {
+      "Gerencianet.SDK/1.0.9": {
         "dependencies": {
-          "Newtonsoft.Json": "12.0.1"
+          "Microsoft.CSharp": "4.0.0",
+          "Newtonsoft.Json": "5.0.1"
         },
         "runtime": {
           "lib/net45/Gerencianet.SDK.dll": {
-            "assemblyVersion": "1.0.8.0",
-            "fileVersion": "1.0.8.0"
+            "assemblyVersion": "1.0.7.0",
+            "fileVersion": "1.0.7.0"
           }
         }
       },
+      "Microsoft.CSharp/4.0.0": {},
       "Microsoft.Extensions.ApiDescription.Server/3.0.0": {},
       "Microsoft.OpenApi/1.2.3": {
         "runtime": {
@@ -36,11 +38,11 @@
           }
         }
       },
-      "Newtonsoft.Json/12.0.1": {
+      "Newtonsoft.Json/5.0.1": {
         "runtime": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
-            "assemblyVersion": "12.0.0.0",
-            "fileVersion": "12.0.1.22727"
+          "lib/net45/Newtonsoft.Json.dll": {
+            "assemblyVersion": "4.5.0.0",
+            "fileVersion": "5.0.1.16007"
           }
         }
       },
@@ -98,12 +100,19 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Gerencianet.SDK/1.0.8": {
+    "Gerencianet.SDK/1.0.9": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-1A0Sp/LN9JB8yTxPc8unuvosmhzq6VxNKdwlXRpnNDBK62qh8Ky6cSr7wBrdY/HIf+uG6wvC+cbTtvFYagAB0A==",
-      "path": "gerencianet.sdk/1.0.8",
-      "hashPath": "gerencianet.sdk.1.0.8.nupkg.sha512"
+      "sha512": "sha512-0eSWOfaD1P4Cptb1GUVZLbzCVKgwziUStaPeab+B45ilULJmnRWKPicPDp9w9kyAXDz+H4qi+aFbeYMqSKw5PQ==",
+      "path": "gerencianet.sdk/1.0.9",
+      "hashPath": "gerencianet.sdk.1.0.9.nupkg.sha512"
+    },
+    "Microsoft.CSharp/4.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oWqeKUxHXdK6dL2CFjgMcaBISbkk+AqEg+yvJHE4DElNzS4QaTsCflgkkqZwVlWby1Dg9zo9n+iCAMFefFdJ/A==",
+      "path": "microsoft.csharp/4.0.0",
+      "hashPath": "microsoft.csharp.4.0.0.nupkg.sha512"
     },
     "Microsoft.Extensions.ApiDescription.Server/3.0.0": {
       "type": "package",
@@ -119,12 +128,12 @@
       "path": "microsoft.openapi/1.2.3",
       "hashPath": "microsoft.openapi.1.2.3.nupkg.sha512"
     },
-    "Newtonsoft.Json/12.0.1": {
+    "Newtonsoft.Json/5.0.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-pBR3wCgYWZGiaZDYP+HHYnalVnPJlpP1q55qvVb+adrDHmFMDc1NAKio61xTwftK3Pw5h7TZJPJEEVMd6ty8rg==",
-      "path": "newtonsoft.json/12.0.1",
-      "hashPath": "newtonsoft.json.12.0.1.nupkg.sha512"
+      "sha512": "sha512-AuSDf0kpGGLSvFmj1Zia8BxTeUCdQ6lB8lWUZRYVXRnAQLmiEGmoP0M+9KHwJNqBW2FiFwSG8Jkz3G7tS6k7MQ==",
+      "path": "newtonsoft.json/5.0.1",
+      "hashPath": "newtonsoft.json.5.0.1.nupkg.sha512"
     },
     "RestSharp/108.0.3": {
       "type": "package",

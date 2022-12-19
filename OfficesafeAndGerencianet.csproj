@@ -7,7 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Gerencianet.SDK" Version="1.0.8" />
+    <!-- <PackageReference Include="Gerencianet.NETCore.SDK" Version="3.0.0" /> -->
+    <PackageReference Include="Gerencianet.SDK" Version="1.0.9" />
     <PackageReference Include="RestSharp" Version="108.0.3" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
   </ItemGroup>

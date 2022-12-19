@@ -4,6 +4,7 @@ namespace OfficesafeAndGerencianet.Dtos{
         public string ClientSecret { get; set; }
         public string CrtPath { get; set; }
         public string RouteHttp { get; set; }
+        public string RouteAuth {get;set;}
         public bool Sandbox{get;set;}
     }
 }
